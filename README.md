@@ -1,36 +1,49 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 💰 Personal Banking Dashboard
 
-## Getting Started
+A full-stack personal finance dashboard built with **Next.js**, **MongoDB**, and **TypeScript**. It provides user authentication, transaction management, and a visual dashboard for tracking income and expenses.
 
-First, run the development server:
+## 🚀 Live Demo
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+[🔗 Deployed Frontend (Vercel)](https://your-vercel-url.com)  
+[🔗 Backend API (Render)](https://your-render-url.com)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📸 Preview
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+_Add screenshots or a GIF here once available._
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🧩 Features
 
-To learn more about Next.js, take a look at the following resources:
+- ✅ JWT-based authentication using HttpOnly cookies
+- ✅ Register & login securely with bcrypt-hashed passwords
+- ✅ Add, view, and filter transactions
+- ✅ Chart.js visualizations for:
+  - Monthly income vs. expense
+  - Category-wise breakdown (pie chart)
+- ✅ MongoDB (via Mongoose) for persistent storage
+- ✅ Tailwind CSS for modern styling
+- ✅ Protected `/dashboard` route
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🛠 Tech Stack
 
-## Deploy on Vercel
+### Frontend
+- Next.js (App Router, TypeScript)
+- Tailwind CSS
+- Chart.js
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Backend
+- MongoDB (via Mongoose)
+- JWT for authentication
+- Bcrypt for password hashing
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Other Tools
+- Zod for schema validation
+- `react-hot-toast` for feedback
+- Deployed on **Vercel** (frontend) & **Render** (backend)
+
+---
+### 📄 License
+MIT License. Free to use and modify for personal or commercial projects.
